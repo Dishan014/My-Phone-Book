@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: black;
+}
+
+.header li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header li a:hover{
+    color: blueviolet;
+}

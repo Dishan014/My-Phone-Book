@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: url("./telephone.jpg") no-repeat;
+    background-size: cover; 
+}
+
+
+.form{
+    height: 300px;
+    width: 500px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.form h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.form input{
+    margin: 10px;
+    box-shadow: black 5px 5px;
+    outline: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form label{
+    color: white;
+    margin: 10px;
+}
+
+.btn1{
+    margin-left: 210px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    cursor: pointer;
+    box-shadow: black 5px 5px;
+}
+
+.btn2{
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    cursor: pointer;
+    box-shadow: black 5px 5px;
+    width: 60px;
+    height: 25px;
+}
+
+button:hover{
+    height: 25px;
+    width: 80px;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: black;
+}
+
+.header li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header li a:hover{
+    color: blueviolet;
+}
+
+.sign_out{
+    margin-left: 500px;
+}
